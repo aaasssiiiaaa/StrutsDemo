@@ -15,7 +15,7 @@
 <body>
     <!--action属性中的login是连接的业务控制器指定的名字，login必须与struts.xml中的名字一致
     -->
-    <form method="post" action="login">
+    <form method="post" action="login.action">
         用户名：<input name="userName" type="text" size="24">
         <br>
           密码：<input name="passWord" type="password" size="26">

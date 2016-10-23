@@ -11,7 +11,7 @@
 
         <!--<default-action-ref name="index" />-->
 
-        <action name="login" class="nAction">
+        <action name="login" class="struts2Test.LoginAction">
             <result name="error">/WEB-INF/jsp/Login.jsp</result>
             <result name="success">/WEB-INF/jsp/Success.jsp</result>
         </action>
